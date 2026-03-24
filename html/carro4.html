@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Impala 64 — RetroCars</title>
+
+  <link rel="stylesheet" href="../css/carro.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+  <a class="btn-voltar" href="../html/carros.html" aria-label="Voltar à galeria">
+    <img src="../img/volante.svg" alt="Voltar" class="volante-icone">
+  </a>
+
+  <header class="car-header">
+    <h1>Chevrolet Impala — 1964</h1>
+  </header>
+
+  <main class="car-main">
+    
+    <section class="carousel-wrap" aria-label="Galeria de fotos do carro">
+      <div class="carousel" id="carousel">
+        <button class="carousel-btn prev" aria-label="Foto anterior">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="slides" id="slides">
+          <img src="../img/ferrari/ferrari1.jpeg" alt="Impala 64 — foto 1" class="slide active" draggable="false">
+          <img src="../img/ferrari/ferrari2.jpeg" alt="Impala 64 — foto 2" class="slide" draggable="false">
+          <img src="../img/ferrari/ferrari3.jpeg" alt="Impala 64 — foto 3" class="slide" draggable="false">
+          <img src="../img/ferrari/ferrari4.jpeg" alt="Impala 64 — foto 4" class="slide" draggable="false">
+          <img src="../img/ferrari/ferrari5.jpeg" alt="Impala 64 — foto 5" class="slide" draggable="false">
+        </div>
+
+        <button class="carousel-btn next" aria-label="Próxima foto">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="carousel-bottom">
+        <div id="carouselCounter" class="counter">1 / 5</div>
+      </div>
+    </section>
+
+    <!-- Informação do carro -->
+    <aside class="car-info">
+      <h2>Ficha Técnica</h2>
+      <ul>
+        <li><strong>Nome:</strong>Ferrari F40- 1987</li>
+        <li><strong>Ano:</strong> 1987</li>
+        <li><strong>Marca:</strong>Ferrari</li>
+        <li><strong>Motor:</strong> V8 Biturbo</li>
+        <li><strong>Velocidade máx:</strong> 324 km/h</li>
+      </ul>
+
+      <div class="resumo">
+        <h3>Resumo</h3>
+        <p>Projetada para celebrar o 40º aniversário da Ferrari. Um supercarro muito agressivo, com uso intensivo de materiais leves e aerodinâmica avançada pra época. Muito apreciada por desempenho, som do motor, e estilo bruto.
+        </p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-phrase">"Clássicos que nunca saem da estrada"</div>
+    <div class="footer-copy">&copy; 2025 RetroCars</div>
+  </footer>
+
+  <script src="../css/carro.css"></script>
+    <script src="../js/carrosel.js"></script>
+</body>
+</html>

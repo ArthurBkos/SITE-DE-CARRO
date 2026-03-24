@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Opel kapitãn — RetroCars</title>
+
+  <link rel="stylesheet" href="../css/carro.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+  <a class="btn-voltar" href="../html/carros.html" aria-label="Voltar à galeria">
+    <img src="../img/volante.svg" alt="Voltar" class="volante-icone">
+  </a>
+
+  <header class="car-header">
+    <h1>Opel kapitãn— 1938 e 1970</h1>
+  </header>
+
+  <main class="car-main">
+    <section class="carousel-wrap" aria-label="Galeria de fotos do carro">
+      <div class="carousel" id="carousel">
+        <button class="carousel-btn prev" aria-label="Foto anterior">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="slides" id="slides">
+          <img src="../img/Opel kapitãn/opel1.jpeg" alt="Impala 64 — foto 1" class="slide active" draggable="false">
+          <img src="../img/Opel kapitãn/opel2.jpeg" alt="Impala 64 — foto 2" class="slide" draggable="false">
+          <img src="../img/Opel kapitãn/opel3.jpeg" alt="Impala 64 — foto 3" class="slide" draggable="false">
+        </div>
+
+        <button class="carousel-btn next" aria-label="Próxima foto">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="carousel-bottom">
+        <div id="carouselCounter" class="counter">1 / 5</div>
+      </div>
+    </section>
+
+    <aside class="car-info">
+      <h2>Ficha Técnica</h2>
+      <ul>
+        <li><strong>Nome:</strong>Opel kapitãn</li>
+        <li><strong>Ano:</strong>1938 e 1970</li>
+        <li><strong>Marca:</strong>Opel</li>
+        <li><strong>Motor:</strong>inline-6</li>
+        <li><strong>Velocidade máx:</strong> 150 km/h</li>
+      </ul>
+
+      <div class="resumo">
+        <h3>Resumo</h3>
+        <p>Era um carro grande de luxo/moda para a Alemanha, servo luxo “doméstico”. Não ultra esportivo, mas confortável, bem acabado, competitivo no mercado de sedãs grandes de sua época.
+</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-phrase">"Clássicos que nunca saem da estrada"</div>
+    <div class="footer-copy">&copy; 2025 RetroCars</div>
+  </footer>
+
+  <script src="../css/carro.css"></script>
+  <script src="../js/carrosel.js"></script>
+</body>
+</html>

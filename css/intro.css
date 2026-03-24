@@ -1,0 +1,47 @@
+/* intro.css - tela de entrada */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.intro-container {
+  text-align: center;
+}
+
+.intro-title {
+  font-size: 3rem;
+  color: #222;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+/* Volante estilo botão */
+.button img {
+  width: 46px;
+  height: auto;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.button img:hover {
+  transform: scale(1.1) rotate(-15deg);
+}
+
+@keyframes dropIn {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-out {
+  animation: fadeUp 1s forwards;
+}
+
+@keyframes fadeUp {
+  to { transform: translateY(-100%); opacity: 0; }
+}
